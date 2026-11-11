@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(240, 237, 237);
+    height: 100vh;
+
+}
+
+.container{
+   
+    width: 450px;
+    height: 130px;
+    background-color: rgb(224, 222, 222);
+    padding: 10px;
+    
+}
+
+.text{
+    display: flex;
+    justify-content:start;
+    
+
+}

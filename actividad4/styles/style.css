@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+
+}
+body {
+    margin: 0;
+}
+.contenedor {
+    padding: 20px; /*espacio entre el body*/
+    display: flex;
+    flex-wrap: wrap;/*permite que el contenido pase a otra fila cuando no hay espacio*/
+    gap: 10px; /*separa las imagenes 10px */
+}
+.imagen{
+    flex: 1 1 100px; /*permiten que las imagenes crezcan y se reduzcan y tengan una base de 200px*/
+    height: 150px; 
+    object-fit: cover;/*Ajusta la imagen sin deformarla*/
+    border-radius: 5px; /*el radio del borde de la imagen se deforma 5px*/
+    box-shadow: 10px 5px 50px rgba(0, 0, 0,0.15); /* 10px desplazamiento horizontal,
+    5px desplazamiento vertical, 50px difuminado de la sombra sombra sirve para extender la sombra */
+}

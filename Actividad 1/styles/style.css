@@ -1,0 +1,43 @@
+
+body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+.imagen{
+    width: 20%;
+}
+.menu{
+    gap : 70px;
+    display: flex; /*los elementos estan horizontalmente*/
+    justify-content: start; /*los agrupa desde el inicio*/
+    width: 45%;
+    margin: 20px;}
+.menu a{
+    text-decoration: none;
+    color: dimgray;
+
+}
+
+
+.idioma{
+    display: flex;
+    gap : 8px; /*epacio dentro de los contenedores hijos*/
+
+}
+.en, .eus{
+    display: flex;
+    width: 40px; /*ancho*/
+    height: 40px;/*altura del los elemento*/
+    text-align: center; /*alinea el texto en elcentro*/
+    padding: 10px; /*espacio interior */
+    background-color: slategray;
+    color: aliceblue;
+    justify-content: center;/*centra horizontalmente*/
+    align-items: center; /*centra verticalmente*/
+}
+
+
+
+

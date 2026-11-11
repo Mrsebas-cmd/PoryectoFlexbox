@@ -1,0 +1,28 @@
+
+.menu {
+    display: flex; /*activamos flex para los elementos hijos*/
+    flex-direction: column; /*organizamos los elementos verticalmente*/
+    width: 400px;
+    height: 320px;
+    gap: 5px; /*esta es la separacion entre cada elemento*/
+    box-sizing: border-box;
+    
+}
+.item{
+    display: flex; /*activamos el flexbox de cada fila para organizar el texto */
+    justify-content: space-between; /*creo un espacio entre los elementos*/
+    align-items: center; /*Centramos el texto*/
+    background-color:rgb(211, 211, 211);
+    padding: 20px; /*creamos un espacio entre */
+
+
+}
+button {
+    background-color: white;
+    color: rgb(20, 4, 4);
+    padding: 10px;
+    border: 1px  solid white;
+    cursor: pointer; 
+
+}
+
